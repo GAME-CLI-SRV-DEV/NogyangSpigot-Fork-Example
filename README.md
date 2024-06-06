@@ -1,8 +1,9 @@
 # NogyangSpigot-Fork-Example
-How to make NogyangSpigot fork with Paperweight-Patcher
+How to make NogyangSpigot fork with Paperweight-Patcher.
+i am naming this CakeMix
 # Submodule way:
 View a code right up Like Paperweight-examples Submodule Branch:
-1. add submodules.
+1. run ```git submodule add https://github.com/GAME-CLI-SRV-DEV.NogyangSpigot work/NogyangSpigot```
 2. setup Your fork.
 ```
 import io.papermc.paperweight.util.Git
@@ -159,14 +160,8 @@ publishing {
         }
     }
 ```
-3. add .gitmodules
-```
-[submodule "work/Paper"]
-	path = work/NogyangSpigot
-	url = https://github.com/GAME-CLI-SRV-DEV/NogyangSpigot
-        branch = master
-```
-4. setup editorconfig, gitignore
+
+3. setup editorconfig, gitignore
 ```
 .editorconfig
 [*.java]
@@ -240,6 +235,7 @@ gradlew text eol=lf
 
 *.jar binary
 ```
-5. make a neccesary patches(Build-Changes) & Initialize the fork with gradle wrapper
-6. type gradlew applypatches
-7. type Gradlew CreatereobfPaperclipjar, this will build it.
+3. make a neccesary patches(Build-Changes) & Initialize the fork with gradle wrapper
+4. publish your repository
+5. type gradlew applypatches
+6. type Gradlew CreatereobfPaperclipjar, this will build it.
