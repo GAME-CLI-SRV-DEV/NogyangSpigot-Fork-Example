@@ -3,7 +3,7 @@ How to make NogyangSpigot fork with Paperweight-Patcher.
 i am naming this CakeMix
 # Submodule way:
 View a code right up Like Paperweight-examples Submodule Branch:
-1. run ```git submodule add https://github.com/GAME-CLI-SRV-DEV.NogyangSpigot work/NogyangSpigot```
+1. run ```git submodule add https://github.com/GAME-CLI-SRV-DEV/NogyangSpigot work/NogyangSpigot```
 2. setup Your fork.
 ```
 import io.papermc.paperweight.util.Git
